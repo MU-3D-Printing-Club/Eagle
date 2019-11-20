@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9120,6 +9120,8 @@ Source: www.golledge.com</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="power" width="1" drill="0">
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -9146,6 +9148,9 @@ Source: www.golledge.com</description>
 <part name="SERVO4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="SERVO5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="MYO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="BRIDGE1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="BRIDGE2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="BRIDGE3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9201,9 +9206,9 @@ Source: www.golledge.com</description>
 <attribute name="NAME" x="110.744" y="137.541" size="1.778" layer="95"/>
 <attribute name="VALUE" x="110.744" y="135.001" size="1.778" layer="96"/>
 </instance>
-<instance part="CHARGER" gate="A" x="114.3" y="71.12" smashed="yes">
-<attribute name="NAME" x="107.95" y="79.375" size="1.778" layer="95"/>
-<attribute name="VALUE" x="107.95" y="63.5" size="1.778" layer="96"/>
+<instance part="CHARGER" gate="A" x="134.62" y="68.58" smashed="yes">
+<attribute name="NAME" x="128.27" y="76.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.27" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="REGIN" gate="A" x="83.82" y="73.66" smashed="yes">
 <attribute name="NAME" x="77.47" y="79.375" size="1.778" layer="95"/>
@@ -9245,6 +9250,18 @@ Source: www.golledge.com</description>
 <attribute name="NAME" x="227.33" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="227.33" y="111.76" size="1.778" layer="96"/>
 </instance>
+<instance part="BRIDGE1" gate="G$1" x="96.52" y="93.98" smashed="yes">
+<attribute name="NAME" x="92.71" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="90.678" size="1.778" layer="96"/>
+</instance>
+<instance part="BRIDGE2" gate="G$1" x="147.32" y="66.04" smashed="yes">
+<attribute name="NAME" x="143.51" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="143.51" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="BRIDGE3" gate="G$1" x="96.52" y="88.9" smashed="yes">
+<attribute name="NAME" x="92.71" y="90.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="85.598" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9266,28 +9283,6 @@ Source: www.golledge.com</description>
 <label x="134.62" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="REGOUT" gate="A" pin="2"/>
-<wire x1="81.28" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-<label x="73.66" y="91.44" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="SERVO1" gate="A" pin="2"/>
-<wire x1="203.2" y1="220.98" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
-<label x="195.58" y="220.98" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERVO2" gate="A" pin="2"/>
-<wire x1="203.2" y1="220.98" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
-<junction x="203.2" y="220.98"/>
-<pinref part="SERVO3" gate="A" pin="2"/>
-<wire x1="228.6" y1="220.98" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
-<junction x="215.9" y="220.98"/>
-<pinref part="SERVO4" gate="A" pin="2"/>
-<wire x1="228.6" y1="220.98" x2="241.3" y2="220.98" width="0.1524" layer="91"/>
-<junction x="228.6" y="220.98"/>
-<pinref part="SERVO5" gate="A" pin="2"/>
-<wire x1="241.3" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
-<junction x="241.3" y="220.98"/>
-</segment>
-<segment>
 <pinref part="LED" gate="A" pin="2"/>
 <wire x1="297.18" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
 <label x="289.56" y="106.68" size="1.778" layer="95" rot="R180"/>
@@ -9296,6 +9291,11 @@ Source: www.golledge.com</description>
 <pinref part="MYO" gate="A" pin="1"/>
 <wire x1="231.14" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="223.52" y="121.92" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="BRIDGE1" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="111.76" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIGNAL1" class="0">
@@ -9375,8 +9375,8 @@ Source: www.golledge.com</description>
 </segment>
 <segment>
 <pinref part="CHARGER" gate="A" pin="1"/>
-<wire x1="111.76" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<label x="104.14" y="76.2" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
+<label x="121.92" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -9545,21 +9545,6 @@ Source: www.golledge.com</description>
 <wire x1="294.64" y1="167.64" x2="294.64" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="REGOUT" gate="A" pin="3"/>
-<wire x1="81.28" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
-<label x="73.66" y="88.9" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="REGIN" gate="A" pin="2"/>
-<wire x1="81.28" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<label x="73.66" y="73.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="CHARGER" gate="A" pin="3"/>
-<wire x1="111.76" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-<label x="104.14" y="71.12" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="USB" gate="A" pin="4"/>
 <wire x1="287.02" y1="185.42" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
 <label x="279.4" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -9571,30 +9556,13 @@ Source: www.golledge.com</description>
 </segment>
 <segment>
 <pinref part="CHARGER" gate="A" pin="2"/>
-<wire x1="111.76" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<label x="104.14" y="73.66" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<label x="121.92" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="BUTTON" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 <label x="238.76" y="137.16" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="SERVO1" gate="A" pin="3"/>
-<wire x1="203.2" y1="218.44" x2="195.58" y2="218.44" width="0.1524" layer="91"/>
-<label x="195.58" y="218.44" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERVO2" gate="A" pin="3"/>
-<wire x1="203.2" y1="218.44" x2="215.9" y2="218.44" width="0.1524" layer="91"/>
-<junction x="203.2" y="218.44"/>
-<pinref part="SERVO3" gate="A" pin="3"/>
-<wire x1="215.9" y1="218.44" x2="228.6" y2="218.44" width="0.1524" layer="91"/>
-<junction x="215.9" y="218.44"/>
-<pinref part="SERVO4" gate="A" pin="3"/>
-<wire x1="228.6" y1="218.44" x2="241.3" y2="218.44" width="0.1524" layer="91"/>
-<junction x="228.6" y="218.44"/>
-<pinref part="SERVO5" gate="A" pin="3"/>
-<wire x1="241.3" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91"/>
-<junction x="241.3" y="218.44"/>
 </segment>
 <segment>
 <pinref part="LED" gate="A" pin="3"/>
@@ -9605,6 +9573,11 @@ Source: www.golledge.com</description>
 <pinref part="MYO" gate="A" pin="2"/>
 <wire x1="231.14" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="223.52" y="119.38" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="BRIDGE3" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<label x="111.76" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INTERRUPT" class="0">
@@ -9630,21 +9603,19 @@ Source: www.golledge.com</description>
 <wire x1="132.08" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
-<segment>
-<pinref part="CHARGER" gate="A" pin="4"/>
-<wire x1="111.76" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-<label x="104.14" y="68.58" size="1.778" layer="95" rot="R180"/>
-</segment>
+<net name="VBAT" class="1">
 <segment>
 <pinref part="REGIN" gate="A" pin="1"/>
 <wire x1="81.28" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 <label x="73.66" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="(ADC7/TDI)PF7"/>
-<wire x1="195.58" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
-<label x="200.66" y="104.14" size="1.778" layer="95"/>
+<pinref part="CHARGER" gate="A" pin="4"/>
+<wire x1="132.08" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.778" layer="95" rot="R180"/>
+<pinref part="BRIDGE2" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
+<junction x="132.08" y="66.04"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9660,6 +9631,80 @@ Source: www.golledge.com</description>
 <wire x1="137.16" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="127" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BIGPOWER" class="1">
+<segment>
+<pinref part="SERVO1" gate="A" pin="2"/>
+<wire x1="203.2" y1="220.98" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
+<label x="195.58" y="220.98" size="1.778" layer="95" rot="R180"/>
+<pinref part="SERVO2" gate="A" pin="2"/>
+<wire x1="203.2" y1="220.98" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
+<junction x="203.2" y="220.98"/>
+<pinref part="SERVO3" gate="A" pin="2"/>
+<wire x1="228.6" y1="220.98" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
+<junction x="215.9" y="220.98"/>
+<pinref part="SERVO4" gate="A" pin="2"/>
+<wire x1="228.6" y1="220.98" x2="241.3" y2="220.98" width="0.1524" layer="91"/>
+<junction x="228.6" y="220.98"/>
+<pinref part="SERVO5" gate="A" pin="2"/>
+<wire x1="241.3" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
+<junction x="241.3" y="220.98"/>
+</segment>
+<segment>
+<pinref part="REGOUT" gate="A" pin="2"/>
+<wire x1="81.28" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<label x="73.66" y="91.44" size="1.778" layer="95" rot="R180"/>
+<pinref part="BRIDGE1" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="93.98" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<junction x="81.28" y="91.44"/>
+</segment>
+</net>
+<net name="BIGGND" class="1">
+<segment>
+<pinref part="SERVO1" gate="A" pin="3"/>
+<wire x1="203.2" y1="218.44" x2="195.58" y2="218.44" width="0.1524" layer="91"/>
+<label x="195.58" y="218.44" size="1.778" layer="95" rot="R180"/>
+<pinref part="SERVO2" gate="A" pin="3"/>
+<wire x1="203.2" y1="218.44" x2="215.9" y2="218.44" width="0.1524" layer="91"/>
+<junction x="203.2" y="218.44"/>
+<pinref part="SERVO3" gate="A" pin="3"/>
+<wire x1="215.9" y1="218.44" x2="228.6" y2="218.44" width="0.1524" layer="91"/>
+<junction x="215.9" y="218.44"/>
+<pinref part="SERVO4" gate="A" pin="3"/>
+<wire x1="228.6" y1="218.44" x2="241.3" y2="218.44" width="0.1524" layer="91"/>
+<junction x="228.6" y="218.44"/>
+<pinref part="SERVO5" gate="A" pin="3"/>
+<wire x1="241.3" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91"/>
+<junction x="241.3" y="218.44"/>
+</segment>
+<segment>
+<pinref part="CHARGER" gate="A" pin="3"/>
+<wire x1="132.08" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<label x="121.92" y="68.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="REGIN" gate="A" pin="2"/>
+<wire x1="81.28" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<label x="73.66" y="73.66" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="REGOUT" gate="A" pin="3"/>
+<wire x1="81.28" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
+<label x="73.66" y="88.9" size="1.778" layer="95" rot="R180"/>
+<pinref part="BRIDGE3" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<junction x="81.28" y="88.9"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="BRIDGE2" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="(ADC7/TDI)PF7"/>
+<wire x1="198.12" y1="66.04" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
