@@ -9090,66 +9090,66 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="SIGNAL1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="(PCINT5/OC1A/OC4B/ADC12)PB5"/>
-<wire x1="195.58" y1="165.1" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
-<label x="198.12" y="165.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SERVO1" gate="A" pin="1"/>
 <wire x1="203.2" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
 <label x="195.58" y="223.52" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(OSC0B/SCL/INT0)PD0"/>
+<wire x1="195.58" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+<label x="200.66" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SIGNAL2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(PCINT6/OC1B/OC4B/ADC13)PB6"/>
-<wire x1="195.58" y1="162.56" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
-<label x="198.12" y="162.56" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="SERVO2" gate="A" pin="1"/>
 <wire x1="215.9" y1="223.52" x2="210.82" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="223.52" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
 <label x="210.82" y="231.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(OC3A/OC4A)PC6"/>
+<wire x1="195.58" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
+<label x="200.66" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SIGNAL3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(ICP3/CLK0/OC4A)PC7"/>
-<wire x1="195.58" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
-<label x="213.36" y="152.4" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="SERVO3" gate="A" pin="1"/>
 <wire x1="228.6" y1="223.52" x2="223.52" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="223.52" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
 <label x="223.52" y="231.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(T0/OC4D/ADC10)PD7"/>
+<wire x1="195.58" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
+<label x="200.66" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SIGNAL4" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(OC3A/OC4A)PC6"/>
-<wire x1="195.58" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
-<label x="198.12" y="154.94" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="SERVO4" gate="A" pin="1"/>
 <wire x1="241.3" y1="223.52" x2="236.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="223.52" x2="236.22" y2="231.14" width="0.1524" layer="91"/>
 <label x="236.22" y="231.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(PCINT5/OC1A/OC4B/ADC12)PB5"/>
+<wire x1="195.58" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
+<label x="200.66" y="165.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SIGNAL5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(T0/OC4D/ADC10)PD7"/>
-<wire x1="195.58" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
-<label x="198.12" y="129.54" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="SERVO5" gate="A" pin="1"/>
 <wire x1="254" y1="223.52" x2="248.92" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="223.52" x2="248.92" y2="231.14" width="0.1524" layer="91"/>
 <label x="248.92" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(PCINT6/OC1B/OC4B/ADC13)PB6"/>
+<wire x1="195.58" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
+<label x="200.66" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -9253,34 +9253,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <pinref part="U$1" gate="G$1" pin="(PDI/PCINT2/MOSI)PB2"/>
 <wire x1="195.58" y1="172.72" x2="198.12" y2="172.72" width="0.1524" layer="91"/>
 <label x="198.12" y="172.72" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(OSC0B/SCL/INT0)PD0"/>
-<wire x1="195.58" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
-<label x="200.66" y="147.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(SDA/INT1)PD1"/>
-<wire x1="195.58" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
-<label x="200.66" y="144.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="INT" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(ICP1/ADC8)PD4"/>
-<wire x1="195.58" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
-<label x="200.66" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="STAT" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="(T1/OC4D/ADC9)PD6"/>
-<wire x1="195.58" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
-<label x="200.66" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATAIN" class="0">

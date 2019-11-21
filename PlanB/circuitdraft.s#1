@@ -9414,14 +9414,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="INTERRUPT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="(SS/PCINT0)PB0"/>
-<wire x1="195.58" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
-<label x="200.66" y="177.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="BUTTON" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <label x="238.76" y="139.7" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(INT6/AIN0)PE6"/>
+<wire x1="195.58" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="200.66" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT" class="1">
