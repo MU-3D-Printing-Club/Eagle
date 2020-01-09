@@ -2314,23 +2314,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="REGIN" pad="4"/>
 <contactref element="REGOUT" pad="1"/>
 <contactref element="REGOUT" pad="2"/>
-<via x="30.2" y="21.9" extent="1-16" drill="0.35"/>
+<via x="30" y="22" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="INTERRUPT">
-<contactref element="U$1" pad="8"/>
 <contactref element="BUTTON" pad="1"/>
-<wire x1="23.1648" y1="16.8402" x2="22.1742" y2="16.8402" width="0.1524" layer="1"/>
-<wire x1="23.3172" y1="16.6878" x2="23.1648" y2="16.8402" width="0.1524" layer="1"/>
-<wire x1="23.3172" y1="15.8496" x2="23.3172" y2="16.6878" width="0.1524" layer="16"/>
-<wire x1="22.479" y1="15.0114" x2="23.3172" y2="15.8496" width="0.1524" layer="16"/>
+<contactref element="U$1" pad="1"/>
+<wire x1="23.241" y1="22.479" x2="22.1742" y2="22.479" width="0.1524" layer="1"/>
+<wire x1="24.765" y1="20.955" x2="23.241" y2="22.479" width="0.1524" layer="1"/>
+<wire x1="24.765" y1="20.8026" x2="24.765" y2="20.955" width="0.1524" layer="1"/>
+<wire x1="24.765" y1="17.2974" x2="24.765" y2="20.8026" width="0.1524" layer="16"/>
+<wire x1="22.479" y1="15.0114" x2="24.765" y2="17.2974" width="0.1524" layer="16"/>
 <wire x1="22.479" y1="14.1732" x2="22.479" y2="15.0114" width="0.1524" layer="16"/>
 <wire x1="26.67" y1="9.9822" x2="22.479" y2="14.1732" width="0.1524" layer="16"/>
 <wire x1="38.481" y1="9.9822" x2="26.67" y2="9.9822" width="0.1524" layer="16"/>
 <wire x1="39.243" y1="9.2202" x2="38.481" y2="9.9822" width="0.1524" layer="16"/>
 <wire x1="40.2336" y1="9.2202" x2="39.243" y2="9.2202" width="0.1524" layer="16"/>
-<wire x1="22.1742" y1="16.8402" x2="22.12" y2="16.86" width="0.1524" layer="1"/>
+<wire x1="22.1742" y1="22.479" x2="22.12" y2="22.46" width="0.1524" layer="1"/>
 <wire x1="40.2336" y1="9.2202" x2="40.3" y2="9.17" width="0.1524" layer="16"/>
-<via x="23.3172" y="16.6878" extent="1-16" drill="0.254"/>
+<via x="24.765" y="20.8026" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="VBAT" class="1">
 <contactref element="CHARGER" pad="4"/>
@@ -2355,9 +2356,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$1" pad="41"/>
 <contactref element="MYO" pad="3"/>
 <wire x1="26.289" y1="23.0886" x2="26.289" y2="24.2316" width="0.1524" layer="1"/>
-<wire x1="26.289" y1="20.3454" x2="26.289" y2="23.0886" width="0.1524" layer="16"/>
-<wire x1="16.9926" y1="11.049" x2="26.289" y2="20.3454" width="0.1524" layer="16"/>
-<wire x1="16.9926" y1="8.6106" x2="16.9926" y2="11.049" width="0.1524" layer="16"/>
+<wire x1="16.9926" y1="13.7922" x2="26.289" y2="23.0886" width="0.1524" layer="16"/>
+<wire x1="16.9926" y1="8.6106" x2="16.9926" y2="13.7922" width="0.1524" layer="16"/>
 <wire x1="15.0114" y1="6.6294" x2="16.9926" y2="8.6106" width="0.1524" layer="16"/>
 <wire x1="15.0114" y1="5.5626" x2="15.0114" y2="6.6294" width="0.1524" layer="16"/>
 <wire x1="26.289" y1="24.2316" x2="26.32" y2="24.26" width="0.1524" layer="1"/>
