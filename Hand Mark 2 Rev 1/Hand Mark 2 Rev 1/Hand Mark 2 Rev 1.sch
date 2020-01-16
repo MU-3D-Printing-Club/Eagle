@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Hand Mark 2 Rev 1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -124,25 +125,14 @@ F 3 "" H 6000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:ADP7142AUJZ-3.3 REG1
-U 1 1 5E219EEA
-P 1900 1400
-F 0 "REG1" H 1900 1767 50  0000 C CNN
-F 1 "ADP7142AUJZ-3.3" H 1900 1676 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 1900 1000 50  0001 C CIN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf" H 1900 900 50  0001 C CNN
-	1    1900 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 5E22153D
-P 2550 1300
-F 0 "#PWR?" H 2550 1150 50  0001 C CNN
-F 1 "+3.3V" H 2565 1473 50  0000 C CNN
-F 2 "" H 2550 1300 50  0001 C CNN
-F 3 "" H 2550 1300 50  0001 C CNN
-	1    2550 1300
+P 2250 1200
+F 0 "#PWR?" H 2250 1050 50  0001 C CNN
+F 1 "+3.3V" H 2265 1373 50  0000 C CNN
+F 2 "" H 2250 1200 50  0001 C CNN
+F 3 "" H 2250 1200 50  0001 C CNN
+	1    2250 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -167,8 +157,6 @@ F 3 "" H 2200 2550 50  0001 C CNN
 	1    2200 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 1300 2550 1300
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E22E27D
@@ -249,12 +237,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E23530E
-P 1900 1700
-F 0 "#PWR?" H 1900 1450 50  0001 C CNN
-F 1 "GND" H 1905 1527 50  0000 C CNN
-F 2 "" H 1900 1700 50  0001 C CNN
-F 3 "" H 1900 1700 50  0001 C CNN
-	1    1900 1700
+P 1700 1800
+F 0 "#PWR?" H 1700 1550 50  0001 C CNN
+F 1 "GND" H 1705 1627 50  0000 C CNN
+F 2 "" H 1700 1800 50  0001 C CNN
+F 3 "" H 1700 1800 50  0001 C CNN
+	1    1700 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -319,16 +307,14 @@ Wire Wire Line
 $Comp
 L power:+BATT #PWR?
 U 1 1 5E249F42
-P 1300 1300
-F 0 "#PWR?" H 1300 1150 50  0001 C CNN
-F 1 "+BATT" H 1315 1473 50  0000 C CNN
-F 2 "" H 1300 1300 50  0001 C CNN
-F 3 "" H 1300 1300 50  0001 C CNN
-	1    1300 1300
+P 1150 1200
+F 0 "#PWR?" H 1150 1050 50  0001 C CNN
+F 1 "+BATT" H 1165 1373 50  0000 C CNN
+F 2 "" H 1150 1200 50  0001 C CNN
+F 3 "" H 1150 1200 50  0001 C CNN
+	1    1150 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 1300 1300 1300
 Text GLabel 7600 1350 2    50   Input ~ 0
 MYOSIG
 Text GLabel 4150 3050 2    50   Input ~ 0
@@ -353,10 +339,8 @@ Wire Wire Line
 	5600 2900 5700 2900
 Wire Wire Line
 	5600 3400 5700 3400
-Text GLabel 7300 4500 0    50   Input ~ 0
+Text GLabel 7100 4500 0    50   Input ~ 0
 NEO
-Wire Wire Line
-	7300 4500 7400 4500
 $Comp
 L power:+5V #PWR?
 U 1 1 5E250D01
@@ -627,5 +611,66 @@ F 2 "" H 7550 2750 50  0001 C CNN
 F 3 "" H 7550 2750 50  0001 C CNN
 	1    7550 2750
 	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MIC5504-3.3YM5 REG1
+U 1 1 5E20BBC0
+P 1700 1300
+F 0 "REG1" H 1700 1667 50  0000 C CNN
+F 1 "MIC5504-3.3YM5" H 1700 1576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1700 900 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf" H 1450 1550 50  0001 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1200 2250 1200
+Wire Wire Line
+	1150 1200 1300 1200
+$Comp
+L Device:C C2
+U 1 1 5E21B87C
+P 2250 1650
+F 0 "C2" H 2365 1696 50  0000 L CNN
+F 1 "1uF" H 2365 1605 50  0000 L CNN
+F 2 "" H 2288 1500 50  0001 C CNN
+F 3 "~" H 2250 1650 50  0001 C CNN
+	1    2250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E21CD0A
+P 1150 1650
+F 0 "C1" H 1265 1696 50  0000 L CNN
+F 1 "1uF" H 1265 1605 50  0000 L CNN
+F 2 "" H 1188 1500 50  0001 C CNN
+F 3 "~" H 1150 1650 50  0001 C CNN
+	1    1150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1200 2250 1500
+Connection ~ 2250 1200
+Wire Wire Line
+	1150 1200 1150 1500
+Connection ~ 1150 1200
+Wire Wire Line
+	1700 1600 1700 1800
+Wire Wire Line
+	1150 1800 1700 1800
+Connection ~ 1700 1800
+Wire Wire Line
+	1700 1800 2250 1800
+$Comp
+L Device:R_US R5
+U 1 1 5E2292AF
+P 7250 4500
+F 0 "R5" V 7045 4500 50  0000 C CNN
+F 1 "500ohm" V 7136 4500 50  0000 C CNN
+F 2 "" V 7290 4490 50  0001 C CNN
+F 3 "~" H 7250 4500 50  0001 C CNN
+	1    7250 4500
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
