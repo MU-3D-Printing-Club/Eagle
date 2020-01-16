@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "hand parts")(type Legacy)(uri "${KIPRJMOD}/hand parts.lib")(options "")(descr ""))
+)
