@@ -410,7 +410,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1300 2850 1300
 Wire Wire Line
-	2550 1500 2850 1500
+	2550 1500 2700 1500
 Wire Wire Line
 	2550 1600 2850 1600
 Wire Wire Line
@@ -991,4 +991,31 @@ Wire Wire Line
 Connection ~ 4900 5600
 Wire Wire Line
 	4900 5600 5150 5600
+$Comp
+L Device:R_US R?
+U 1 1 5E241226
+P 2700 900
+F 0 "R?" H 2768 946 50  0000 L CNN
+F 1 "1000ohm" H 2768 855 50  0000 L CNN
+F 2 "" V 2740 890 50  0001 C CNN
+F 3 "~" H 2700 900 50  0001 C CNN
+	1    2700 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1050 2700 1500
+Connection ~ 2700 1500
+Wire Wire Line
+	2700 1500 2850 1500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E244CA1
+P 2700 750
+F 0 "#PWR?" H 2700 600 50  0001 C CNN
+F 1 "+3.3V" H 2715 923 50  0000 C CNN
+F 2 "" H 2700 750 50  0001 C CNN
+F 3 "" H 2700 750 50  0001 C CNN
+	1    2700 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
