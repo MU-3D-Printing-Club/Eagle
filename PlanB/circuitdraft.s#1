@@ -8920,29 +8920,25 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="U$1" library="mega32U4" deviceset="ATMEGA32U4-AU" device=""/>
-<part name="USB" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="1 uF"/>
-<part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="22 Ohms"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="22 Ohms"/>
+<part name="USB" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="ISP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="22pF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="22 pF"/>
 <part name="CHARGER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="BUTTON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="BUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="LED" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="SERVO1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="SERVO2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="SERVO3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="SERVO4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="SERVO5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="S1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="S2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="S3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="S4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="S5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="MYO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="BRIDGE1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="BRIDGE2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="Y1" library="SamacSys_Parts" deviceset="CY16BPS" device=""/>
-<part name="REGIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="REGOUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="IREG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="OREG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8957,24 +8953,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <instance part="U$1" gate="G$1" x="165.1" y="147.32" smashed="yes">
 <attribute name="VALUE" x="142.24" y="93.98" size="1.9304" layer="96"/>
 </instance>
-<instance part="USB" gate="A" x="289.56" y="187.96" smashed="yes">
+<instance part="USB" gate="G$1" x="289.56" y="187.96" smashed="yes">
 <attribute name="NAME" x="283.21" y="196.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.21" y="180.34" size="1.778" layer="96"/>
-</instance>
-<instance part="C1" gate="G$1" x="116.84" y="119.38" smashed="yes">
-<attribute name="NAME" x="118.364" y="119.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="118.364" y="114.681" size="1.778" layer="96"/>
-</instance>
-<instance part="AGND1" gate="1" x="116.84" y="106.68" smashed="yes">
-<attribute name="VALUE" x="114.3" y="101.6" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1" gate="G$1" x="86.36" y="137.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.09" y="138.2014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="85.09" y="135.382" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R2" gate="G$1" x="96.52" y="139.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.79" y="141.1986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="97.79" y="138.938" size="1.778" layer="96"/>
 </instance>
 <instance part="ISP" gate="A" x="276.86" y="170.18" smashed="yes">
 <attribute name="NAME" x="270.51" y="175.895" size="1.778" layer="95"/>
@@ -8995,7 +8976,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <attribute name="NAME" x="128.27" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="BUTTON" gate="G$1" x="248.92" y="137.16" smashed="yes">
+<instance part="BUT" gate="G$1" x="248.92" y="137.16" smashed="yes">
 <attribute name="NAME" x="242.57" y="142.875" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.57" y="132.08" size="1.778" layer="96"/>
 </instance>
@@ -9003,23 +8984,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <attribute name="NAME" x="293.37" y="112.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="293.37" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="SERVO1" gate="A" x="205.74" y="220.98" smashed="yes">
+<instance part="S1" gate="A" x="205.74" y="220.98" smashed="yes">
 <attribute name="NAME" x="199.39" y="226.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.39" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="SERVO2" gate="A" x="218.44" y="220.98" smashed="yes">
+<instance part="S2" gate="A" x="218.44" y="220.98" smashed="yes">
 <attribute name="NAME" x="212.09" y="226.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="SERVO3" gate="A" x="231.14" y="220.98" smashed="yes">
+<instance part="S3" gate="A" x="231.14" y="220.98" smashed="yes">
 <attribute name="NAME" x="224.79" y="226.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="224.79" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="SERVO4" gate="A" x="243.84" y="220.98" smashed="yes">
+<instance part="S4" gate="A" x="243.84" y="220.98" smashed="yes">
 <attribute name="NAME" x="237.49" y="226.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="237.49" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="SERVO5" gate="A" x="256.54" y="220.98" smashed="yes">
+<instance part="S5" gate="A" x="256.54" y="220.98" smashed="yes">
 <attribute name="NAME" x="250.19" y="226.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="250.19" y="213.36" size="1.778" layer="96"/>
 </instance>
@@ -9039,11 +9020,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <attribute name="NAME" x="111.76" y="153.67" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="114.3" y="153.67" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="REGIN" gate="A" x="40.64" y="132.08" smashed="yes">
+<instance part="IREG" gate="A" x="40.64" y="132.08" smashed="yes">
 <attribute name="NAME" x="34.29" y="140.335" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="REGOUT" gate="A" x="40.64" y="111.76" smashed="yes">
+<instance part="OREG" gate="A" x="40.64" y="111.76" smashed="yes">
 <attribute name="NAME" x="34.29" y="120.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="104.14" size="1.778" layer="96"/>
 </instance>
@@ -9073,11 +9054,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <label x="289.56" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="MYO" gate="A" pin="1"/>
-<wire x1="231.14" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
-<label x="223.52" y="121.92" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="BRIDGE1" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="96.52" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="30.48" y="86.36" size="1.778" layer="95" rot="R270"/>
@@ -9090,7 +9066,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="SIGNAL1" class="0">
 <segment>
-<pinref part="SERVO1" gate="A" pin="1"/>
+<pinref part="S1" gate="A" pin="1"/>
 <wire x1="203.2" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
 <label x="195.58" y="223.52" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -9102,7 +9078,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="SIGNAL2" class="0">
 <segment>
-<pinref part="SERVO2" gate="A" pin="1"/>
+<pinref part="S2" gate="A" pin="1"/>
 <wire x1="215.9" y1="223.52" x2="210.82" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="223.52" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
 <label x="210.82" y="231.14" size="1.778" layer="95"/>
@@ -9115,7 +9091,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="SIGNAL3" class="0">
 <segment>
-<pinref part="SERVO3" gate="A" pin="1"/>
+<pinref part="S3" gate="A" pin="1"/>
 <wire x1="228.6" y1="223.52" x2="223.52" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="223.52" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
 <label x="223.52" y="231.14" size="1.778" layer="95"/>
@@ -9128,7 +9104,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="SIGNAL4" class="0">
 <segment>
-<pinref part="SERVO4" gate="A" pin="1"/>
+<pinref part="S4" gate="A" pin="1"/>
 <wire x1="241.3" y1="223.52" x2="236.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="223.52" x2="236.22" y2="231.14" width="0.1524" layer="91"/>
 <label x="236.22" y="231.14" size="1.778" layer="95"/>
@@ -9141,7 +9117,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="SIGNAL5" class="0">
 <segment>
-<pinref part="SERVO5" gate="A" pin="1"/>
+<pinref part="S5" gate="A" pin="1"/>
 <wire x1="254" y1="223.52" x2="248.92" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="223.52" x2="248.92" y2="231.14" width="0.1524" layer="91"/>
 <label x="248.92" y="231.14" size="1.778" layer="95"/>
@@ -9154,8 +9130,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="USB" gate="A" pin="1"/>
-<wire x1="287.02" y1="193.04" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="USB" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="190.5" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
 <label x="279.4" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -9167,44 +9143,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <pinref part="CHARGER" gate="A" pin="1"/>
 <wire x1="132.08" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
 <label x="121.92" y="73.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="D+" class="0">
-<segment>
-<pinref part="USB" gate="A" pin="2"/>
-<wire x1="287.02" y1="190.5" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
-<label x="279.4" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="142.24" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
-<label x="86.36" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D-" class="0">
-<segment>
-<pinref part="USB" gate="A" pin="3"/>
-<wire x1="287.02" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
-<label x="279.4" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="144.78" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
-<label x="96.52" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D-"/>
-<wire x1="137.16" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D+"/>
-<wire x1="137.16" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -9269,20 +9207,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="114.3" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="AGND1" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="ISP" gate="A" pin="6"/>
 <wire x1="281.94" y1="167.64" x2="294.64" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="AGND3" gate="1" pin="GND"/>
 <wire x1="294.64" y1="167.64" x2="294.64" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="USB" gate="A" pin="4"/>
-<wire x1="287.02" y1="185.42" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
-<label x="279.4" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="UGND"/>
@@ -9295,7 +9223,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <label x="121.92" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="BUTTON" gate="G$1" pin="2"/>
+<pinref part="BUT" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 <label x="238.76" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -9310,19 +9238,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <label x="223.52" y="119.38" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="SERVO1" gate="A" pin="3"/>
+<pinref part="S1" gate="A" pin="3"/>
 <wire x1="203.2" y1="218.44" x2="195.58" y2="218.44" width="0.1524" layer="91"/>
 <label x="195.58" y="218.44" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERVO2" gate="A" pin="3"/>
+<pinref part="S2" gate="A" pin="3"/>
 <wire x1="203.2" y1="218.44" x2="215.9" y2="218.44" width="0.1524" layer="91"/>
 <junction x="203.2" y="218.44"/>
-<pinref part="SERVO3" gate="A" pin="3"/>
+<pinref part="S3" gate="A" pin="3"/>
 <wire x1="215.9" y1="218.44" x2="228.6" y2="218.44" width="0.1524" layer="91"/>
 <junction x="215.9" y="218.44"/>
-<pinref part="SERVO4" gate="A" pin="3"/>
+<pinref part="S4" gate="A" pin="3"/>
 <wire x1="228.6" y1="218.44" x2="241.3" y2="218.44" width="0.1524" layer="91"/>
 <junction x="228.6" y="218.44"/>
-<pinref part="SERVO5" gate="A" pin="3"/>
+<pinref part="S5" gate="A" pin="3"/>
 <wire x1="241.3" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91"/>
 <junction x="241.3" y="218.44"/>
 </segment>
@@ -9364,9 +9292,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <label x="129.54" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="REGIN" gate="A" pin="3"/>
+<pinref part="IREG" gate="A" pin="3"/>
 <wire x1="38.1" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="REGIN" gate="A" pin="4"/>
+<pinref part="IREG" gate="A" pin="4"/>
 <wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="132.08" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
@@ -9374,19 +9302,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <label x="27.94" y="132.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="REGOUT" gate="A" pin="1"/>
+<pinref part="OREG" gate="A" pin="1"/>
 <wire x1="38.1" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="REGOUT" gate="A" pin="2"/>
+<pinref part="OREG" gate="A" pin="2"/>
 <wire x1="30.48" y1="116.84" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
 <junction x="30.48" y="116.84"/>
 <label x="27.94" y="116.84" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="USB" gate="G$1" pin="2"/>
+<wire x1="287.02" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
+<label x="274.32" y="187.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INTERRUPT" class="0">
 <segment>
-<pinref part="BUTTON" gate="G$1" pin="1"/>
+<pinref part="BUT" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <label x="238.76" y="139.7" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -9406,9 +9339,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <junction x="132.08" y="66.04"/>
 </segment>
 <segment>
-<pinref part="REGIN" gate="A" pin="1"/>
+<pinref part="IREG" gate="A" pin="1"/>
 <wire x1="38.1" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="REGIN" gate="A" pin="2"/>
+<pinref part="IREG" gate="A" pin="2"/>
 <wire x1="30.48" y1="137.16" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
@@ -9423,36 +9356,28 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <wire x1="195.58" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="UCAP"/>
-<wire x1="137.16" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="127" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BIGPOWER" class="1">
 <segment>
-<pinref part="SERVO1" gate="A" pin="2"/>
+<pinref part="S1" gate="A" pin="2"/>
 <wire x1="203.2" y1="220.98" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
 <label x="195.58" y="220.98" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERVO2" gate="A" pin="2"/>
+<pinref part="S2" gate="A" pin="2"/>
 <wire x1="203.2" y1="220.98" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
 <junction x="203.2" y="220.98"/>
-<pinref part="SERVO3" gate="A" pin="2"/>
+<pinref part="S3" gate="A" pin="2"/>
 <wire x1="228.6" y1="220.98" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
 <junction x="215.9" y="220.98"/>
-<pinref part="SERVO4" gate="A" pin="2"/>
+<pinref part="S4" gate="A" pin="2"/>
 <wire x1="228.6" y1="220.98" x2="241.3" y2="220.98" width="0.1524" layer="91"/>
 <junction x="228.6" y="220.98"/>
-<pinref part="SERVO5" gate="A" pin="2"/>
+<pinref part="S5" gate="A" pin="2"/>
 <wire x1="241.3" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
 <junction x="241.3" y="220.98"/>
 </segment>
 <segment>
-<pinref part="REGOUT" gate="A" pin="3"/>
+<pinref part="OREG" gate="A" pin="3"/>
 <wire x1="38.1" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="REGOUT" gate="A" pin="4"/>
+<pinref part="OREG" gate="A" pin="4"/>
 <wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="109.22" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -9461,6 +9386,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <pinref part="BRIDGE1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="109.22" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
 <junction x="30.48" y="109.22"/>
+</segment>
+<segment>
+<pinref part="MYO" gate="A" pin="1"/>
+<wire x1="231.14" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
+<label x="223.52" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$9" class="0">

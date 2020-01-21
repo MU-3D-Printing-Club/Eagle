@@ -8939,6 +8939,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <part name="Y1" library="SamacSys_Parts" deviceset="CY16BPS" device=""/>
 <part name="IREG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="OREG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="IO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9027,6 +9028,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <instance part="OREG" gate="A" x="40.64" y="111.76" smashed="yes">
 <attribute name="NAME" x="34.29" y="120.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="104.14" size="1.778" layer="96"/>
+</instance>
+<instance part="IO" gate="A" x="220.98" y="139.7" smashed="yes">
+<attribute name="NAME" x="214.63" y="145.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="214.63" y="132.08" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9316,6 +9321,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <wire x1="287.02" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
 <label x="274.32" y="187.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IO" gate="A" pin="3"/>
+<wire x1="218.44" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
+<label x="205.74" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INTERRUPT" class="0">
 <segment>
@@ -9425,6 +9435,30 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CY16BPS.pdf"&
 <junction x="119.38" y="137.16"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="137.16" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="(RXD1/INT2)PD2"/>
+<wire x1="195.58" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
+<label x="198.12" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IO" gate="A" pin="1"/>
+<wire x1="218.44" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<label x="205.74" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="(TXD1/INT3)PD3"/>
+<wire x1="195.58" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<label x="198.12" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IO" gate="A" pin="2"/>
+<wire x1="218.44" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<label x="208.28" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
