@@ -1927,6 +1927,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="91" x="40.8" y="30.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.975" y="25.32" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="IO" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="39.8" y="7.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.9712" y="9.3138" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="92" x="39.8" y="7.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="42.975" y="3.59" size="1.27" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="POWER">
@@ -2146,6 +2151,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="USB" pad="2"/>
 <via x="32.5" y="26.3" extent="1-16" drill="0.35"/>
 <via x="28.7" y="21.9" extent="1-16" drill="0.35"/>
+<contactref element="IO" pad="3"/>
+<wire x1="33.72" y1="14.46" x2="36.73" y2="19.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INTERRUPT">
 <contactref element="BUT" pad="1"/>
@@ -2250,6 +2257,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.12" y1="12.66" x2="27.1272" y2="12.6492" width="0.1524" layer="1"/>
 <wire x1="27.1272" y1="12.6492" x2="27.1272" y2="9.0672" width="0.1524" layer="1"/>
 <wire x1="27.1272" y1="9.0672" x2="25.06" y2="7" width="0.1524" layer="1"/>
+</signal>
+<signal name="RX">
+<contactref element="U$1" pad="20"/>
+<contactref element="IO" pad="1"/>
+<wire x1="30.32" y1="12.66" x2="30.3" y2="12.68" width="0.1524" layer="1"/>
+<wire x1="30.32" y1="12.66" x2="30.32" y2="14.08" width="0.1524" layer="1"/>
+<wire x1="30.32" y1="14.08" x2="30.3" y2="14.1" width="0.1524" layer="1"/>
+<via x="30.3" y="14.1" extent="1-16" drill="0.35"/>
+<wire x1="30.3" y1="14.1" x2="31.9694" y2="12.4306" width="0.1524" layer="16"/>
+<wire x1="36.3182" y1="8.3418" x2="39.8" y2="4.86" width="0.1524" layer="16"/>
+<wire x1="31.9694" y1="12.4306" x2="33.4197875" y2="12.4306" width="0.1524" layer="16"/>
+<wire x1="33.4197875" y1="12.4306" x2="36.3182" y2="9.5321875" width="0.1524" layer="16"/>
+<wire x1="36.3182" y1="9.5321875" x2="36.3182" y2="8.3418" width="0.1524" layer="16"/>
+</signal>
+<signal name="TX">
+<contactref element="U$1" pad="21"/>
+<contactref element="IO" pad="2"/>
+<wire x1="31.12" y1="12.66" x2="31.12" y2="14.08" width="0.1524" layer="1"/>
+<wire x1="31.12" y1="14.08" x2="31.1" y2="14.1" width="0.1524" layer="1"/>
+<via x="31.1" y="14.1" extent="1-16" drill="0.35"/>
+<wire x1="31.1" y1="14.1" x2="33.1" y2="14.1" width="0.1524" layer="16"/>
+<wire x1="33.1" y1="14.1" x2="39.8" y2="7.4" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
