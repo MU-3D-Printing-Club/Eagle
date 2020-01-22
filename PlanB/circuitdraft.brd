@@ -2202,16 +2202,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="BRIDGE2" pad="1"/>
 <contactref element="IREG" pad="1"/>
 <contactref element="IREG" pad="2"/>
-<wire x1="16.5354" y1="26.3652" x2="16.6" y2="26.35" width="1" layer="1"/>
-<wire x1="18.5928" y1="25.3746" x2="19.1262" y2="25.3746" width="1" layer="1"/>
-<wire x1="17.7546" y1="26.2128" x2="18.5928" y2="25.3746" width="1" layer="1"/>
-<wire x1="17.0688" y1="26.2128" x2="17.7546" y2="26.2128" width="1" layer="1"/>
-<wire x1="19.1262" y1="25.3746" x2="19.2" y2="25.31" width="1" layer="1"/>
-<wire x1="17.0688" y1="26.2128" x2="16.6" y2="26.35" width="1" layer="1"/>
-<wire x1="16.6" y1="26.35" x2="15.15" y2="26.35" width="1" layer="1"/>
-<wire x1="15.15" y1="26.35" x2="14" y2="27.5" width="1" layer="1"/>
-<wire x1="14" y1="27.5" x2="14" y2="28.49" width="1" layer="1"/>
 <wire x1="14" y1="31.03" x2="14" y2="28.49" width="1" layer="1"/>
+<wire x1="14" y1="28.49" x2="15.1476" y2="27.3424" width="1" layer="1"/>
+<wire x1="15.1476" y1="27.3424" x2="15.1476" y2="27.32976875" width="1" layer="1"/>
+<wire x1="15.1476" y1="27.32976875" x2="16.12736875" y2="26.35" width="1" layer="1"/>
+<wire x1="16.12736875" y1="26.35" x2="16.6" y2="26.35" width="1" layer="1"/>
+<wire x1="19.2" y1="25.31" x2="17.64" y2="25.31" width="1" layer="1"/>
+<wire x1="17.64" y1="25.31" x2="16.6" y2="26.35" width="1" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="41"/>
